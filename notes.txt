@@ -1,0 +1,81 @@
+eBay Coding Interview – Key Points
+Most Frequent Problems
+
+Sliding Window / Strings
+
+Longest Substring Without Repeating Characters
+
+Longest Palindromic Substring
+
+Longest Increasing Subarray
+
+Stack & Queue
+
+Valid Parentheses
+
+Stack using Linked List
+
+Queue using Stack
+
+Backtracking
+
+Word Break II
+
+N-Queens II
+
+Sudoku Solver
+
+Arrays & Hashing
+
+Top K Frequent Elements
+
+Merge Intervals
+
+Product of Array Except Self
+
+Remove Even Integers
+
+Linked Lists
+
+Delete Nth Node from End
+
+Detect Loop (Floyd's Cycle)
+
+Remove Duplicates
+
+Binary Search / Matrix
+
+Binary Search in Matrix
+
+Two Sum II (Sorted Array) ← your code
+
+System Design (Mid/Senior Level)
+Online Flash Sale System (locking, high traffic)
+
+Notification Service (pub-sub)
+
+Ad Click Event Storage (Cassandra-like)
+
+Persistent Storage (CRUD + TTL + recovery)
+
+Platform & Strategy
+Platform: CodeSignal (4 questions, score out of 600)
+
+Focus: O(n) solutions, edge cases, clean code
+
+Communication: Clarify → brute force → optimize → code → complexity
+
+Quick Practice Checklist
+Two pointers (sorted arrays)
+
+Sliding window
+
+Stack for parentheses
+
+Backtracking recursion
+
+Hash map for frequency
+
+Floyd's cycle detection
+
+Merge intervals pattern
