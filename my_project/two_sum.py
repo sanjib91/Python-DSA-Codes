@@ -1,13 +1,15 @@
-arr = [4,1,2,4,5,1,3,5,4,7,9,8]
+nums = [1,2,7,11,15]
 
-def two_sum(nums, target):
-    seen = {}
-    for i, num in enumerate(nums):
-        complement = target - num
-        if complement in seen:
-            return [seen[complement], i]
-        seen[num] = i
+def two_sum_II(nums, target):
+    left, right = 0, len(nums) -1 
+    while left < right:
+        if nums[left] + nums[right] > target:
+            right -= 1
+        elif nums[left] + nums[right] < target:
+            left += 1
 
-    return []    
+        elif nums[left] + nums[right] == target:
+            return [nums[left], nums[right]]
 
-print(two_sum(arr,6))    
+print(two_sum_II(nums, 18))                
+

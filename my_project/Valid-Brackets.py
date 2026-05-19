@@ -1,6 +1,6 @@
-def valid_brackets(s: str) -> bool:
+def valid_brackets(s: str):
     stack = []
-    mapped_pairs = {')':'(', '}':'{',']':'['}
+    mapped_pairs = {')':'(','}':'{',']':'['}
     count = 0
 
     for char in s:
@@ -11,17 +11,18 @@ def valid_brackets(s: str) -> bool:
             if stack and stack[-1] == mapped_pairs[char]:
                 stack.pop(); count += 1
             else:
-                return False , count
+                return False, count
 
     return not stack, count
 
-tests =  [
+
+tests = [
     '{{{]]}}}',
     '(((())))',
     '{{[[[]]]]]}}',
-    '{([])}'
+    '{([])}',
+    '{([[[[[((((({{{{}}}})))))]]]]])}'
 ]
-
 
 for i in tests:
     result = valid_brackets(i)
