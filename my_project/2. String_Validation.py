@@ -1,11 +1,7 @@
 def validate_emails(emails):
     import re
     
-    # Simple pattern: 
-    # - at least one character before @
-    # - then @
-    # - then at least one character, a dot, and at least two characters after the dot
-    pattern = r'^.+@.+\..{2,}$'
+    pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
     
     valid = []
     invalid = []
